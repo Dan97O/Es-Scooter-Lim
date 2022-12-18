@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body { /*Immagine di sfondo*/
+  background-image: url('img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+}
+
+.Container { /* Container Generale*/
+  margin: auto;
+  width: 110vh;
+  height: 70vh;
+  background-size: cover;
+  background-color: rgba(10, 10, 10, 0.7);
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50% , -50% );
+}
+
+.Container2 { /*Logo*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+}
+
+.logo { /*Logo*/
+  height: 100px;
+  background-size: cover;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.Container3 { /*Titolo*/
+  background-size: cover;
+  text-align: center;
+  height: 50px;
+  color: rgb(0, 255, 0);
+  display: block;
+  margin-top: 30px
+}
+
+.Titolo { /*Titolo*/
+  font-size: 40px;
+}
+
+.Container4 { /*Link*/
+  border-radius: 15px;
+  background-size: cover;
+  text-align: center;
+  height: 50px;
+  width: 90vh;
+  background-color: rgb(0, 255, 0);
+  margin: auto;
+}
+
+ .Link { /*Link*/
+  background-size: cover;
+  text-align: center;
+  height: 50px;
+}
+
+.Link1 a { /*Link*/
+  display: inline-block;
+  width: 7vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.Link2 a { /*Link*/
+  display: inline-block;
+  width: 20vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.Link3 a { /*Link*/
+  display: inline-block;
+  width: 12vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.Container5 { /*Testo centrale e stato di carica*/
+  color: white;
+  background-size: cover;
+  height: 50px;
+  width: 90vh;
+  margin: auto;
+}
+
+label, /*Checkbox*/
+input[type='radio'] {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+#Nome { /*Nome del monopattino libero*/
+  font-size: 20px;
+}
+
+.Carica1 { /*Stato della carica*/
+  height: 20px;
+  width: 25vh;
+  background-color: orange;
+}
+
+.Carica2 { /*Stato della carica*/
+  height: 20px;
+  width: 50vh;
+  background-color: rgb(0, 255, 0);
+}
+
+.Carica3 { /*Stato della carica*/
+  height: 20px;
+  width: 12.5vh;
+  background-color: red;
+}
